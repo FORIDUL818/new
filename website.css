@@ -1,0 +1,122 @@
+*{
+  margin:0px;
+  padding:0px;
+  transform:3s;
+}
+body{
+  background-image:url("images/Foridul3.png");
+  background-repeat:no-repeat;
+
+}
+.container{
+  width:1280px;
+  margin:auto;
+ 
+  
+}
+img{
+  max-width:100%;;
+}
+.container-full{
+  width:100%;
+}
+
+/* header section*/
+.header-aria{
+ background: linear-gradient(90deg, rgba(131,58,180,1) 4%, rgba(169,49,133,1) 15%, rgba(218,38,73,1) 24%, rgba(225,36,64,1) 31%, rgba(253,29,29,1) 39%, rgba(252,176,69,1) 90%);
+height:60px;
+}
+.logo{
+  font-size: 20px; 
+  float: left;
+  display: block;
+  margin: 17px;
+}
+.logo a{text-decoration: none;
+color:white;
+font-size: 24px;
+margin: 20px;
+margin: top 10px;
+text-transform: uppercase;
+}
+.main-manu{ float: right;
+  display: block;
+  padding-right: 75px;}
+.main-manu ul{}
+.main-manu ul li{list-style: none;
+float: right;
+margin: 20px;
+margin-left:15px;
+text-transform: uppercase;
+;
+font-size: 20px;}
+.main-manu ul li a{text-decoration: none;
+color:white;
+}
+
+/*home section*/
+.home-aria{
+margin: auto;
+  width: 1280px;
+  height: 100vh;
+  background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url("images/tajin.jpg");
+  background-position: center;
+  background-size: cover;
+ 
+}
+.home-content{}
+.home-text{
+  text-align: center;
+  padding: 40vh;
+}
+.home-text h1{color:white;
+  font-size: 60px;
+  line-height: 90px;
+
+}
+.home-text h2{color:white;
+  font-size: 40px;
+  line-height: 50px;
+}
+button{background-color: rgba(218,38,73,1);
+  text-align: center;
+font-size: 30px;
+margin: 16px;
+background-color: rgba(253,29,29,1);
+color: white;
+padding: 10px;
+width: 200px;
+height: 50px;
+padding: 5px;
+margin-top:80px;
+
+}
+button a{
+  text-align: center;
+  text-decoration: none;
+  color:white;
+ 
+}
+.contant{
+  text-align: center;
+  margin:60px;
+}
+.contant{
+  width: 500px;
+  height: 500px;
+}
+.contant-text{ background-color: rgb(196, 199, 194);
+
+}
+.contant-text h1{color:rgba(225,36,64,1);
+  text-align: center;
+  font-size:60px;
+ 
+}
+.contant-text h3{color:rgb(219, 41, 50);
+
+}
+.contant-text p{color:white;
+font-size: 20px;
+}
+.img{}
